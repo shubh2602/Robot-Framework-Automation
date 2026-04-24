@@ -1,8 +1,7 @@
 def reverse_string(str):
         return str[::-1]
 
-a=reverse_string("shubham")
-print(a)
+print(reverse_string("shubham"))
 
 
 

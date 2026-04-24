@@ -1,5 +1,4 @@
 def sec_largest(lst):
-    global largest, sec
     if len(lst) < 2:
         print("can't find sec. largest")
 
@@ -15,7 +14,7 @@ def sec_largest(lst):
         if lst[i]>largest:
             sec = largest
             largest = lst[i]
-        elif lst[i]>sec and lst[i]<largest and lst[i]!=largest:
+        elif lst[i]>sec and lst[i]<largest or lst[i]!=largest:
             sec = lst[i]
     return sec
 
