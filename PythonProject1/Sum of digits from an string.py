@@ -1,6 +1,6 @@
-def Sum_of_digits_from_and_string(str):
+def Sum_of_digits_from_and_string(s):
      total = 0
-     for char in str:
+     for char in s:
           if char.isdigit():
               total += int(char) 
      return total
