@@ -6,4 +6,3 @@ def Sum_of_digits_from_and_string(s):
      return total
 
 print(Sum_of_digits_from_and_string("abc123def"))
-
